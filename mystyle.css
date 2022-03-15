@@ -1,0 +1,69 @@
+
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+
+.Title {
+    display: flex;
+    justify-content: center;
+}
+
+
+.Clear {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    
+}
+
+.Seuss {
+    display: flex;
+    justify-content: center;
+    background-color: lightpink;
+
+
+}
+
+.Marboli {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: lightgreen;
+    font-size: medium;
+
+}
+
+.Sincero {
+    display: flex;
+    justify-content: center;
+    background-color: lightyellow;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
